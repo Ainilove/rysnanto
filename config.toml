@@ -1,0 +1,15 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "rysblog"
+
+[build]
+  # ...
+
+[build.processing]
+  # ...
+
+  [build.processing.postCSS]
+    [build.processing.postCSS.options]
+      map = false
+      config = "assets/css/main.scss"
